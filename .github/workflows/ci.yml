@@ -20,5 +20,5 @@ jobs:
           git config --local user.name ${{ secrets.NAME }}
           git remote set-url origin https://${{ github.actor }}:${{ secrets.TOKEN }}@github.com/${{ github.repository }}
           git pull --rebase
-          git commit --allow-empty -m "a commit a day keeps your girlfriend from going away"
+          git commit --allow-empty -m "Don't break the streak. Keep committing code every day!"
           git push
